@@ -1,5 +1,9 @@
-# Speech-Emotion-Recognition 基于中科院CASIA情感数据集的1200条情感语音信号进行语音情感识别
-利用feature_extraction2 可以提取mfcc imfcc 语谱图 mel谱图 共振峰等特征，并可以对特征矩阵的维度或大小进行定义
-mfcc_training 和 imfcc_training 和spectrum_training 和mel_spectrum_training可以对提取得到的特征进行训练并保存模型
-利用feature_extraction3可以利用训练好的模型提取原始特征的深层抽象特征，并进行特征融合
-利用backend以及backend2可以对融合特诊进行进一步训练，最终可以得到90%左右的识别准确率
+# Speech-Emotion-Recognition 基于中科院CASIA情感数据集的1200条情感语音信号进行语音情感识别。
+
+利用feature_extraction2 可以提取mfcc imfcc 语谱图 mel谱图 共振峰等特征，并可以对特征矩阵的维度或大小进行定义。
+
+mfcc_training 和 imfcc_training 和spectrum_training 和mel_spectrum_training可以对提取得到的特征进行训练并保存模型。
+
+利用feature_extraction3可以利用训练好的模型提取原始特征的深层抽象特征，并进行特征融合。
+
+利用backend以及backend2可以对融合特诊进行进一步训练，最终可以得到90%左右的识别准确率。
